@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Add new</title>
+    </head>
+    <body>
+         <h1 align="center">Enter Details</h1>
+         <div style="width:900px;margin-left: auto;margin-right: auto">
+             
+              <form action ="JSP/ManagerAddNew.jsp" method="post">
+            <table>
+                <tr>
+                    <th>Emp SSN</th>
+                    <td><input name="emp_ssn" type=text"></td>
+                </tr>
+                
+                <tr>
+                    <th>First Name</th>
+                    <td><input name="fname" type=text"></td>
+                </tr>
+                
+                               
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        <select name="gender">
+                            <option value="F">Female</option>
+                             <option value="M">Male</option>
+                        </select>
+                    </td>
+                </tr>
+                
+               <!-- <tr>
+                    <th>startdate</th>
+                    <td><input name="startDate" type=text"></td>
+                </tr> -->
+                
+                <tr>
+                    <th>Department Number</th>
+                    <td><input name="dnum" type=text"></td>
+                </tr>
+                
+                <tr>
+                    <th>Employee Type</th>
+                    <td>
+                         <select name="empType">
+                            <option value="PartTime">Part time</option>
+                             <option value="FullTime">Full time</option>
+                             <option value="Intern">Intern</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                
+                 <tr>
+                    <th>Payment Method</th>
+                    <td>
+                         <select name="pMethod">
+                            <option value="1">Hourly</option>
+                             <option value="2">Yearly</option>
+                             
+                        </select>
+                    </td>
+                </tr>
+                
+                
+            </table>
+          <input name="Input" type="submit" value="Add Employee">
+         <input name="Input" type="reset" value="Reset">  
+           
+     
+            
+        </form>
+             
+         </div>
+       
+       
+    </body>
+</html>
+

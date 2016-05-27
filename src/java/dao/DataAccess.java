@@ -65,24 +65,35 @@ public class DataAccess
     }
     
     
-    public static List<Employee> getEmpById(String id) throws ClassNotFoundException
+    public static List<Employee> getEmpById(String id) throws ClassNotFoundException, SQLException
     {
         System.out.print("inside dao"+id);
         List<Employee> ls=new LinkedList<>();
-        String sql="select * from Employee where emp_ssn="+id;
+        
+            
         try 
         {
+            if(id==null)
+            {
+                id="";
+            }
+            
+            String sql="select * from Employee where emp_ssn="+id;
+            System.out.print("after sql in dao");
+            
             ResultSet rs=  (ResultSet) DBUtils.getPreparedStatement(sql).executeQuery();
             while(rs.next())
             {
                 Employee ep=new Employee(rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6));
+                System.out.print("dnum inside dao"+ep.getDnum());
                 ls.add(ep);
             
             }
         } 
         catch (SQLException ex) 
         {
-            Logger.getLogger(DataAccess.class.getName()).log(Level.SEVERE, null, ex);
+            throw ex;
+           // Logger.getLogger(DataAccess.class.getName()).log(Level.SEVERE, null, ex);
         }
         return ls;
     }

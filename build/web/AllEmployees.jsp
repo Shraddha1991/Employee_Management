@@ -28,6 +28,9 @@
                    
                </tr>
               
+                <c:if test="${AllEmployees.size() == 0}">
+                                    No flights found.
+                                </c:if> 
                 
                
                <c:forEach items="${AllEmployees}" var="p">

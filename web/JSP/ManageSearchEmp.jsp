@@ -17,7 +17,7 @@
              String emp_ssn=request.getParameter("emp_ssn");
            System.out.print("inside manage"+emp_ssn);
             DataAccess.getEmpById(emp_ssn);
-           response.sendRedirect("/Management/AllEmployees");
+           response.sendRedirect("/Management/ReqEmployee");
             
             
             

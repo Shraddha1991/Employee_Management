@@ -4,14 +4,9 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/src/java/servlet/ReqEmployee.java</file>
-            <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/web/JSP/ManageSearchEmp.jsp</file>
+            <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/web/ReqEmployee.jsp</file>
             <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/web/SearchEmployee.jsp</file>
-            <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/web/AllEmployees.jsp</file>
-            <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/src/java/servlet/EditEmployee.java</file>
-            <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/web/JSP/ManageEditEmployee.jsp</file>
-            <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/src/java/servlet/AllEmployees.java</file>
-            <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/web/EditEmployee.jsp</file>
-            <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/web/AddNew.html</file>
+            <file>file:/C:/Users/Lipi%20Patel/Documents/NetBeansProjects/Management/src/java/dao/DataAccess.java</file>
         </group>
     </open-files>
 </project-private>

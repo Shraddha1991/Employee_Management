@@ -14,7 +14,7 @@
     <body>
         <h1>Search Employee</h1>
         <div style="width:900px;margin-left: auto;margin-right: auto">
-            <form action ="JSP/ManageSearchEmp.jsp" method="post">
+            <form action ="/Management/ReqEmployee" method="post">
                 
                 <input name="emp_ssn" type="text">
                  <input name="Input" type="submit" value="Search Employee">

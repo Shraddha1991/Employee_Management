@@ -28,7 +28,7 @@
               
                 
                
-               <c:forEach items="${getEmpById}" var="p">
+               <c:forEach items="${emplist}" var="p">
                    <tr>
                         <td>${p.emp_ssn}</td>
                          <td>${p.fname}</td>
